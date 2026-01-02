@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000';
+const API_URL = typeof API_BASE_URL !== 'undefined' ? API_BASE_URL : 'http://localhost:3000';
 
 class ApiService {
     constructor() {
